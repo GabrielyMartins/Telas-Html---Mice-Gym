@@ -1,0 +1,50 @@
+.page{
+    
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.slidebar{
+    background-color: #000000;
+    display: flex;
+    padding: 30px;
+    text-decoration: none;
+}
+
+.logo{
+    width: 100px;
+    height: 100px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:visited{
+    color: white;
+}
+
+a:hover{
+    color: white;
+}
+.row{
+    padding:10px;
+}
+
+@media (min-width: 640px){
+    .page{
+        flex-direction: row;
+    }
+    
+    .slidebar{
+        height: 100vh;
+        width: auto;
+        position: sticky;
+        top: 0;
+        display: block;
+    }
+    
+}
+

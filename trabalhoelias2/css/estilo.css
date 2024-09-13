@@ -4,7 +4,7 @@
     flex-direction: column;
 }
 .slidebar{
-    background-color: #2f3c3f;
+    background-color: black;
     display: flex;
     height: 90px;
     width: 100%;
